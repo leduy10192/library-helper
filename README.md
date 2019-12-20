@@ -54,7 +54,7 @@ Netbeans IDE, Javafx, Apache DB, Gluon Scene Builder
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [1999] [Duy Le, Tuong Chu, Duy Tran]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
