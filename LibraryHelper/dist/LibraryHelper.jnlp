@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="LibraryHelper.jnlp">
+  <information>
+    <title>LibraryHelper</title>
+    <vendor>kumaq</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="LibraryHelper.jar" size="315319" download="eager" />
+    <jar href="lib/commons-codec-1.4.jar" size="58160" download="eager" />
+    <jar href="lib/derby.jar" size="3232770" download="eager" />
+    <jar href="lib/derbyclient.jar" size="588394" download="eager" />
+    <jar href="lib/gson-2.8.6.jar" size="240255" download="eager" />
+    <jar href="lib/jfoenix-8.0.8.jar" size="2708772" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="LibraryHelper" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="library.helper.ui.main.Main"  name="LibraryHelper" />
+  <update check="always"/>
+</jnlp>
